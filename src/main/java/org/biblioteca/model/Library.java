@@ -51,7 +51,7 @@ public void setDeanery (String deanery) {
 	}
 	
 
-public Boolean getStatus() {
+public Boolean isStatus() {
     return status;
 	}
 
