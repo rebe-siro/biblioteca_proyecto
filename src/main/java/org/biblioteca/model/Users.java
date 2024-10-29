@@ -1,6 +1,6 @@
 package org.biblioteca.model;
 
-public class Usuario {
+public class Users {
     private int code;
     private String name;
     private int id;
@@ -8,7 +8,15 @@ public class Usuario {
     private int type;
     private boolean status;
 
-
+public Users(int code, String name, int id, int career, int type, Boolean status) {
+	this.code = code;
+	this.name = name;
+	this.id = id;
+    this.career = career;
+	this.type = type;
+	this.status = status;
+}
+    
     public int getCode() {
         return code;
     }
@@ -17,6 +25,7 @@ public class Usuario {
         this.code = code;
     }
 
+    
     public String getName() {
         return name;
     }
@@ -25,6 +34,7 @@ public class Usuario {
         this.name = name;
     }
 
+    
     public int getId() {
         return id;
     }
@@ -33,6 +43,7 @@ public class Usuario {
         this.id = id;
     }
 
+    
     public int getCareer() {
         return career;
     }
@@ -41,6 +52,7 @@ public class Usuario {
         this.career = career;
     }
 
+    
     public int getType() {
         return type;
     }
@@ -49,7 +61,8 @@ public class Usuario {
         this.type = type;
     }
 
-    public boolean getStatus() {
+    
+    public boolean isStatus() {
         return status;
     }
 
