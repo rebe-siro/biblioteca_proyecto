@@ -8,6 +8,7 @@ public class Usuario {
     private int type;
     private boolean status;
 
+
     public int getCode() {
         return code;
     }
