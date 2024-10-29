@@ -5,9 +5,9 @@ public class Biblioteca {
 	private String name;
 	private String dean;
 	private String deanery;
-	private char status;
+	private Boolean status;
 	
-	public Biblioteca(int code, String name, String dean, String deanery, char status) {
+	public Biblioteca(int code, String name, String dean, String deanery, Boolean status) {
 		this.code = code;
 		this.name = name;
 		this.dean = dean;
@@ -51,11 +51,11 @@ public void setDeanery (String deanery) {
 	}
 	
 
-public char getStatus() {
+public Boolean getStatus() {
     return status;
 	}
 
-public void setStatus(char status) {
+public void setStatus(Boolean status) {
     this.status = status;
 	}
 }
