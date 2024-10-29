@@ -5,6 +5,12 @@ public class TypeResources {
     private String description;
     private boolean status;
 
+public TypeResources(int code, String description, Boolean status) {
+	this.code = code;
+	this.description = description;
+	this.status = status;
+}
+    
     public int getCode() {
         return code;
     }
@@ -21,11 +27,11 @@ public class TypeResources {
         this.description = description;
     }
 
-    public boolean getStatus() {
+    public Boolean isStatus() {
         return status;
     }
 
-    public void setStatus(boolean status) {
+    public void setStatus(Boolean status) {
         this.status = status;
     }
 }
