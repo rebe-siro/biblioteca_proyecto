@@ -7,8 +7,6 @@ public class Carrera {
     private String decanato;
 	private boolean status;
     
-public Carrera() {}
-
 public Carrera(int code, String name, String description, String decanato, boolean status) {
 	this.code = code;
 	this.name = name;
