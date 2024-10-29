@@ -14,7 +14,7 @@ public Extension(int code, String user, Date star_Date, Date end_Date, Date new_
 	this.code = code;
 	this.user = user;
 	this.star_Date = star_Date;
-    this.end_Date = end_Date;
+   	this.end_Date = end_Date;
 	this.new_End_Date = new_End_Date;
 	this.status = status;
 }
