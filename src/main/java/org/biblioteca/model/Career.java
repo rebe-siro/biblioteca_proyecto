@@ -5,9 +5,9 @@ public class Career {
     private String name;
     private String description;
     private String deanery;
-    private char status;
+    private Boolean status;
     
-public Career(int code, String name, String description, String deanery, char status) {
+public Career(int code, String name, String description, String deanery, Boolean status) {
 	this.code = code;
 	this.name = name;
 	this.description = description;
@@ -52,7 +52,7 @@ public void setDeanery(String deanery) {
 	}
 
 
-public char getStatus() {
+public boolean isStatus() {
     return status;
 	}
 
