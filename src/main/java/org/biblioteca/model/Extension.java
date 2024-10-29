@@ -10,6 +10,14 @@ public class Extension {
     private Date new_End_Date;
     private boolean status;
 
+public Extension(int code, String user, Date star_Date, Date end_Date, Date new_End_Date, boolean status) {
+	this.code = code;
+	this.user = user;
+	this.star_Date = star_Date;
+    this.end_Date = end_Date;
+	this.new_End_Date = new_End_Date;
+	this.status = status;
+}
     public int getCode() {
         return code;
     }
