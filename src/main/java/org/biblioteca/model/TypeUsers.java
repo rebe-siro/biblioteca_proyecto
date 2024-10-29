@@ -1,6 +1,6 @@
 package org.biblioteca.model;
 
-public class Tipo_Usuario {
+public class TypeUsers {
         private int code;
         private String description;
         private boolean status;
