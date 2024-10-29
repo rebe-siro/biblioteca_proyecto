@@ -2,12 +2,12 @@ package org.biblioteca.model;
 
 public class TypeProfile {
     private int code;
-    private String name;
+    private String description;
     private boolean status;
 
-public TypeProfile (int code, String name, Boolean status) {
+public TypeProfile (int code, String description, Boolean status) {
 	this.code = code;
-	this.name = name;
+	this.description = description;
 	this.status = status;
 }
     
@@ -19,12 +19,12 @@ public TypeProfile (int code, String name, Boolean status) {
         this.code = code;
     }
 
-    public String getName() {
-        return name;
+    public String getDescription() {
+        return description;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public Boolean isStatus() {
