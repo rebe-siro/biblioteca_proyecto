@@ -2,11 +2,28 @@ package org.biblioteca.model;
 
 public class Resources {
     private int code;
+    private String title;
     private String description;
     private String autor;
     private int type;
     private boolean status;
 
+    public Resources(int code, String title, String author, int type, boolean status) {
+        this.code = code;
+        this.title = title;
+        this.author = author;
+        this.type = type;
+        this.status = status;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+   
     public String getAutor() {
         return autor;
     }
