@@ -40,7 +40,7 @@ public class Resources {
         this.type = type;
     }
 
-    public boolean getStatus() {
+    public boolean isStatus() {
         return status;
     }
 
