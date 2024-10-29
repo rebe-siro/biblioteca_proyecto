@@ -2,26 +2,26 @@ package org.biblioteca.model;
 
 import java.util.Date; 
 
-public class Devolucion {
-    private String idDevolucion;
-    private String idPrestamo;
+public class Return {
+    private String id;
+    private String idLoan;
     private Date end_Date;
     private boolean status; // true si está en buen estado, false si está dañado
 
     // Constructor
-    public Devolucion(String idDevolucion, String idPrestamo, Date end_Date, boolean status) {
-        this.idDevolucion = idDevolucion;
-        this.idPrestamo = idPrestamo;
+    public Return(String id, String idLoan, Date end_Date, boolean status) {
+        this.id = id;
+        this.idLoan = idLoan;
         this.end_Date = end_Date;
         this.status = status;
     }
 
     // Métodos
-    public String getIdDevolucion() {
+    public String getId() {
         return idDevolucion;
     }
 
-    public String getIdPrestamo() {
+    public String getIdloan() {
         return idPrestamo;
     }
 
@@ -33,8 +33,8 @@ public class Devolucion {
         return status;
     }
 
-    public void setStatus(boolean estado) {
-        this.status = estado;
+    public void setStatus(boolean status) {
+        this.status = status;
     }
 
     @Override
