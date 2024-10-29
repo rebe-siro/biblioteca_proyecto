@@ -1,6 +1,6 @@
 package org.biblioteca.model;
 
-public class Recurso {
+public class Resources {
     private int code;
     private String description;
     private String autor;
