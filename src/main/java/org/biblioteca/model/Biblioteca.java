@@ -1,4 +1,4 @@
-package model;
+package org.biblioteca.model;
 
 public class Biblioteca {
 	private int code;
