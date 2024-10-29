@@ -1,7 +1,7 @@
 package org.biblioteca.model;
 import java.util.Date;
 
-public class Prestamo {
+public class Loan {
     private int code;
     private String user;
     private Date star_Date;
