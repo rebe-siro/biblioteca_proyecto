@@ -5,6 +5,12 @@ public class TypeUsers {
         private String description;
         private boolean status;
 
+public TypeUsers(int code, String description, Boolean status) {
+	this.code = code;
+	this.description = description;
+	this.status = status;
+}
+        
     public int getCode() {
         return code;
     }
