@@ -1,13 +1,13 @@
-package org.biblioteca.model;
+package model;
 
 public class Carrera {
     private int code;
     private String name;
     private String description;
     private String decanato;
-	private boolean status;
+	private char status;
     
-public Carrera(int code, String name, String description, String decanato, boolean status) {
+public Carrera(int code, String name, String description, String decanato, char status) {
 	this.code = code;
 	this.name = name;
 	this.description = description;
@@ -52,11 +52,11 @@ public void setDecanto(String decanato) {
 	}
 
 
-public boolean getStatus() {
+public char getStatus() {
     return status;
 	}
 
-public void setStatus(boolean status) {
+public void setStatus(char status) {
     this.status = status;
 	}
 }
