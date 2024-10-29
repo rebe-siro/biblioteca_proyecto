@@ -1,11 +1,11 @@
 package org.biblioteca.model;
 
-public class TypeResources {
+public class University {
     private int code;
     private String name;
     private boolean status;
 
-public TypeResources(int code, String name, Boolean status) {
+public University(int code, String name, Boolean status) {
 	this.code = code;
 	this.name = name;
 	this.status = status;
