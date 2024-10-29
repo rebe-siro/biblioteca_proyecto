@@ -8,6 +8,13 @@ public class Loan {
     private Date end_Date;
     private boolean status;
 
+public Loan(int code, String user, Date star_Date, Date end_Date, Boolean status) {
+	this.code = code;
+	this.user = user;
+	this.star_Date = star_Date;
+	this.end_Date = end_Date;
+	this.status = status;
+}
     public boolean isStatus() {
         return status;
     }
