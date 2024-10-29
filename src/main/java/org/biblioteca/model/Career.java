@@ -1,17 +1,17 @@
-package model;
+package org.biblioteca.model;
 
-public class Carrera {
+public class Career {
     private int code;
     private String name;
     private String description;
-    private String decanato;
-	private char status;
+    private String deanery;
+    private char status;
     
-public Carrera(int code, String name, String description, String decanato, char status) {
+public Career(int code, String name, String description, String deanery, char status) {
 	this.code = code;
 	this.name = name;
 	this.description = description;
-	this.decanato = decanato;
+	this.deanery = deanery;
 	this.status = status;
 }
 
@@ -43,12 +43,12 @@ public void setDescription(String description) {
 	}
 
 
-public String getDecanato() {
-    return decanato;
+public String getDeanery() {
+    return deanery;
 	}
 
-public void setDecanto(String decanato) {
-    this.decanato = decanato;
+public void setDeanery(String deanery) {
+    this.deanery = deanery;
 	}
 
 
